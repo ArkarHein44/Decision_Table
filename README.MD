@@ -44,14 +44,13 @@ Therefore, each column of the matrix may be interpreted as a processing rule.
 - Conditon Entry has ‘Y’ (Yes) ,’N’ (No) or ‘-’ Action entry has ‘X’ (cross mark)  or blank.
 
 ### Example of a extended entry decision table
-| Stock              || S   | S   | S   | S    | T    | T   |
-| :----------------- ||:---:|:---:|:---:|:----:|:----:|:---:|
-| Customer           || W   | R   | W   | A    | W    | R   |
-| Order Value($1000) ||>=50 | >50 | 20< | >=50 | 20<= | 50< |
-|                    ||     |     |     |      |      |     |
-| %Discount          || 22  | 20  | 15  | 25   | 18   | 20  |
-| Carriage           || Y   | N   | N   | N    | Y    | N   |
-| Terms              || N20 | N20 | P5% | N20  | P5%  | N30 |
+| Stock              | S   | S   | S   | S    | T    | T   |
+| :----------------- |:---:|:---:|:---:|:----:|:----:|:---:|
+| Customer           | W   | R   | W   | A    | W    | R   |
+| Order Value($1000) |>=50 | >50 | 20< | >=50 | 20<= | 50< |
+| %Discount          | 22  | 20  | 15  | 25   | 18   | 20  |
+| Carriage           | Y   | N   | N   | N    | Y    | N   |
+| Terms              | N20 | N20 | P5% | N20  | P5%  | N30 |
 
 - Stock: S=Socks, T=T shirt 
 - Customer: R=Retailer, W=Wholesaler, A=Agent 
