@@ -4,8 +4,8 @@
 |I have to go out|leave raincoat in closet
 ||go outside|
 
-Number of Rule:$2^n=2^2=4$ 
-$n^a+n^a = 2n^a$
+Number of Rule:
+$2^n=2^2=4$
 
 #### Decision table
 ||Title|-|1|2|3|4|
