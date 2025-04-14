@@ -85,4 +85,3 @@ The existence of two or more rules with different combination of conditions lead
 ### Disadvantages of Decision Tables
 - Cumbersome (if no. of conditions & Rules are high)
 - Cannot show intermediate action  
-
