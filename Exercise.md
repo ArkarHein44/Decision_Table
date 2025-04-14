@@ -62,3 +62,27 @@ The existence of two or more rules with different combination of conditions lead
 |-|
 |Y|
 |N|
+
+|    | Admission Procedure                |-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|:--:| :--------------------------------- |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1  | Undergraduate Grade of B or better |-| - | Y | - | - | N | N | N | N |
+| 2  | Test score over 550                |-| Y | Y | N | N | Y | Y | N | N |
+| 3  | Grade of B or better past 2 years  |-| Y | N | Y | N | Y | N | Y | N |
+| -  | -                                  |-| - | - | - | - | - | - | - | - |
+| 1  | Admin to Program                   |-| X |   |   |   | X |   |   |   |
+| 2  | Admin on Probation                 |-|   | X | X |   |   |   | X |   |
+| 3  | Do not Admit                       |-|   |   |   | X |   | X |   | X |
+
+### Advantages of Decision Tables
+- Analysis (all possible conditions have been explored) 
+- Communication (Easy - table format) 
+- Conciseness (Clear - actions to be taken based on conditions) 
+- Convenience (easier to reproduce)
+- Standardization (standard formats)
+- Programming (decision table pre-processor) 
+- Intelligibility (layman can understand)
+
+### Disadvantages of Decision Tables
+- Cumbersome (if no. of conditions & Rules are high)
+- Cannot show intermediate action  
+
